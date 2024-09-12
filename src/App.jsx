@@ -1,4 +1,4 @@
-import { HeaderPub } from "./components/layouts/public/HeaderPub"
+import { HeaderPub } from "./layouts/public/HeaderPub"
 
 function App() {
 

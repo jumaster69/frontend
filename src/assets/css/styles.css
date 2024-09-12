@@ -64,6 +64,9 @@ body {
   max-height: 80rem;
 }
 
+.layout.error {
+  grid-template-columns: 100% !important;
+}
 
 /*ESTILOS NAVBAR*/
 .layout__navbar{
@@ -486,4 +489,19 @@ button{
   border-radius: 10px; /* Opcional: redondea las esquinas */
   background-color: #fff; /* Opcional: establece un color de fondo */
   margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.no-following-message, .no-followers-message {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.highlight-gente {
+  color: var(--color-name-user);
+  font-size: 2rem;
+  font-weight: bold;
 }
